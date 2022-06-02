@@ -1,0 +1,86 @@
+
+body {
+    font-family: "Montserrat";
+  }
+  .wrapper {
+    margin: 300px auto 0 auto;
+    max-width: 600px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+  
+  .scores {
+    position: absolute;
+    font-size: 100;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .feedback {
+    font-style: "Montserrat";
+    font-size: 150%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: rgb(78, 73, 73);
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: rgb(201, 193, 193);
+  }
+  
+  button {
+    display: inline-block;
+    margin: 30px;
+    cursor: pointer;
+    font-family: "Montserrat", cursive;
+    font-size: 170%;
+    background-color: rgb(72, 4, 180);
+    border-radius: 100px;
+    padding: 50px 50px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: silver;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
