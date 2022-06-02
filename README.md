@@ -25,19 +25,14 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 ```
+Screenshot of my application: ![image](https://user-images.githubusercontent.com/100245563/171622070-1cf3627c-1f07-4bba-848a-0f414a501c26.png)
 
-The following animation demonstrates the application functionality:
-
-![Demonstration of the Coding Quiz Challenge.](./Assets/04-web-apis-homework-demo.gif)
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
+Functions:
+When you click play, a timer will begin and countdown.
+When you click on a wrong answer, it will display the message "Wrong" and when answered correctly will display "Correct".
+The timer will start counting down when the play button is clicked and selecting the wrong answer deducts time from the timer.
+When the timer reaches 0, the game will end. The remaining time upon quiz completion results in the score.
+Upon quiz completion, you can enter your initials for the scoreboard.
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 # webapi-code-quiz
