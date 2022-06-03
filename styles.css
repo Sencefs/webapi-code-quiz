@@ -49,10 +49,10 @@ body {
   
   button {
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
     cursor: pointer;
     font-family: "Montserrat", cursive;
-    font-size: 170%;
+    font-size: 140%;
     background-color: rgb(72, 4, 180);
     border-radius: 100px;
     padding: 50px 50px;
